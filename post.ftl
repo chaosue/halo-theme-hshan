@@ -36,7 +36,10 @@
                                              src="${user.avatar!}" alt=""/>
                                         <span class="post-author">${post.visits} 次访问</span>
                                         <time class="published"
-                                              datetime="${post.createTime?string("yyyy-MM-dd")}">${post.createTime?string("yyyy-MM-dd")}
+                                              datetime="${post.createTime?string("yyyy-MM-dd")}">创建于${post.createTime?string("yyyy-MM-dd")}
+                                        </time>
+                                        <time class="published"
+                                              datetime="${post.updateTime?string("yyyy-MM-dd")}">最后更新${post.updateTime?string("yyyy-MM-dd")}
                                         </time>
                                     </span>
                                     <div>${user.nickname!}</div>
