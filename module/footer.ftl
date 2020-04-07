@@ -68,10 +68,8 @@
             <p>Copyright &copy; ${.now?string('yyyy')}
                 <a href="${blog_url!}"> ${blog_title!}<#if settings.SiteSubtitle??> - ${settings.SiteSubtitle!}</#if></a>
             </p>
-            <!-- 请尊重作者，请务必保留版权 -->
-            <p>Powered by <a target="_blank" href="http://halo.run">Halo</a> •
-                Theme by <a target="_blank" href="https://github.com/GalaxySuze/gridea-theme-subtle-galaxy">Subtle Galaxy</a> •
-                REFERENCE FROM <a href="https://github.com/hshanx/halo-theme-hshan.git">寒山</a></p>
+            <p>程序修改自 <a target="_blank" href="http://halo.run">Halo</a> •
+                网页模板修改自 <a target="_blank" href="https://github.com/GalaxySuze/gridea-theme-subtle-galaxy">Subtle Galaxy</a> &  <a href="https://github.com/hshanx/halo-theme-hshan.git">寒山</a></p>
             <#if settings.TimeStatistics??>
                 <p>本站运行：<span id="span_dt_dt"></span></p>
             </#if>
